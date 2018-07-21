@@ -70,7 +70,8 @@ void Widget::CreateWRP()
 	ui->textEdit_Status->append("Created elevations!");
 
 	// create textures IDs
-	x = 0, z = 0;
+	x = 0;
+	z = 0;
 
 	for (int tx = 0; tx < gridsize * gridsize; tx++)
 	{
@@ -253,7 +254,8 @@ void Widget::SaveWRP()
 	ui->textEdit_Status->append("Elevations done!");
 
 	// write textures IDs
-	x = 0, z = 0;
+	x = 0;
+	z = 0;
 
 	for (int tx = 0; tx < gridsize * gridsize; tx++)
 	{
